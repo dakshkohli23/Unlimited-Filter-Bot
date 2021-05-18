@@ -72,7 +72,7 @@
 
 ## You can check the video tutorial on how to deploy
 
-[!youtube](https://img-premium.flaticon.com/png/512/1383/1383260.png?token=exp=1621339601~hmac=a3050c5f539a9985fe6ac893220e1522)
+<img src="https://img-premium.flaticon.com/png/512/1383/1383260.png?token=exp=1621339601~hmac=a3050c5f539a9985fe6ac893220e1522"/>
 [Click here to see tutorial video](https://youtu.be/hkmc3e7U7R4)
 
 Thanks to [InfotelGroup](https://telegram.dog/InFoTelGroup) and [Erich Daniken](https://telegram.dog/ErichDaniken) for the video
