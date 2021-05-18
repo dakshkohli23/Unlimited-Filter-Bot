@@ -72,18 +72,19 @@
 
 ## You can check the video tutorial on how to deploy
 
+[!youtube](https://img-premium.flaticon.com/png/512/1383/1383260.png?token=exp=1621339601~hmac=a3050c5f539a9985fe6ac893220e1522)
 [Click here to see tutorial video](https://youtu.be/hkmc3e7U7R4)
 
 Thanks to [InfotelGroup](https://telegram.dog/InFoTelGroup) and [Erich Daniken](https://telegram.dog/ErichDaniken) for the video
 
 
-## Any bugs or errors or suggestions, report at [TroJanzSupport](https://telegram.dog/TroJanzSupport)
+## Any bugs or errors or suggestions, report at [Compass Bots](https://telegram.dog/compass_botz)
 
 
 ## Installation
 
 ### Deploy to Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TroJanzHEX/Unlimited-Filter-Bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/dakshkohli23/Unlimited-Filter-Bot)
 
 ### Deploy in your vps
 ```sh
