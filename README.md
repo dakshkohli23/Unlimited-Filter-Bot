@@ -1,7 +1,11 @@
-# Unlimited Filter Bot
+<h1 align="center"><b>Unlimited Filter Bot</b></h1>
 
+<h4 align="center">An Advanced Filter Bot with nearly Unlimited Filters!!</h4>
 
-[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+<p align='center'>
+  <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-867ae9.svg?style=flat-square&logo=python&logoColor=867ae9&color=867ae9" /> </a>
+  <a href="https://github.com/dakshkohli23/Sharingan-Rename-Bot/" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-Yes-green.svg?style=flat-square&logo=serverless&logoColor=867ae9&color=867ae9" /> </a>
+</p>
 
 <p align="center">
   <a href="https://github.com/TroJanzHEX/Unlimited-Filter-Bot/stargazers">
