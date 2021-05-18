@@ -1,12 +1,8 @@
 # Unlimited Filter Bot
 
 
-<p align="center">
-  <a href="https://www.python.org">
-    <img src="http://ForTheBadge.com/images/badges/made-with-python.svg">
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
-  </a>
-</p>
 <p align="center">
   <a href="https://github.com/TroJanzHEX/Unlimited-Filter-Bot/stargazers">
     <img src="https://img.shields.io/github/stars/TroJanzHEX/Unlimited-Filter-Bot?style=social">
