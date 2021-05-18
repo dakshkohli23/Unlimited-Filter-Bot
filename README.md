@@ -19,11 +19,9 @@
   </a>  
 </p>
 
-[![Compass_botz](https://img.shields.io/badge/Compass-Bots-orange?style=flat&logo=telegram)](https://telegram.dog/compass_botz)  
-ㅤㅤㅤㅤㅤㅤㅤ  
-[![Compass_botz](https://img.shields.io/badge/TroJanzHEX-Support-red?style=flat&logo=telegram)](https://telegram.dog/TroJanzSupport)  [![TroJanz](https://img.shields.io/badge/TroJanzHEX-Website-red?style=flat&logo=CodersRank)](https://TroJanzHEX.me)  
-ㅤㅤㅤㅤㅤㅤㅤ  
-[![MIT license](https://img.shields.io/badge/License-MIT-blue?style=flat)](https://github.com/TroJanzHEX/Unlimited-Filter-Bot/blob/main/LICENSE)  [![Open Source](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/TroJanzHEX/Unlimited-Filter-Bot)
+[![Compass_botz](https://img.shields.io/badge/Compass-Bots-867ae9?style=flat&logo=telegram)](https://telegram.dog/compass_botz)  
+ㅤㅤㅤㅤㅤㅤㅤ   
+[![MIT license](https://img.shields.io/badge/License-MIT-867ae9?style=flat)](https://github.com/dakshkohli23/Unlimited-Filter-Bot/blob/main/LICENSE)  [![Open Source](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/dakshkohli23/Unlimited-Filter-Bot)
 
 
 ## An advanced Filter Bot with nearly unlimitted filters!
