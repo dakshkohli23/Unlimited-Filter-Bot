@@ -28,7 +28,7 @@ async def showid(client, message):
     if chat_type == "private":
         user_id = message.chat.id
         await message.reply_text(
-            f"<b>🃏 Your ID : `{user_id}`</b>",
+            f"**🃏 Your ID : `{user_id}`**",
             parse_mode="md",
             quote=True
         )
@@ -40,7 +40,7 @@ async def showid(client, message):
         else:
             reply_id = ""
         await message.reply_text(
-            f"<b>🃏 Your ID : `{user_id}`\n 🎴 This Group ID : `{chat_id}`\n\n{reply_id}</b>",
+            f"**🃏 Your ID : `{user_id}`\n 🎴 This Group ID : `{chat_id}`\n\n{reply_id}**",
             parse_mode="md",
             quote=True
         )   
