@@ -1,9 +1,8 @@
 {
-    "name": "UNLIMITED FILTER BOT",
-    "description": "An unlimited filter bot using Mongo DB",
-    "logo": "https://web.telegram.org/66b6e6ac-73da-4b71-8f6e-a54f585bfb87",
+    "name": "Bee Unlimited Filter Bot",
+    "description": "Bee is an Unlimited Filter Bot using Mongo DB",
     "keywords": [
-        "UNLIMITED",
+        "unlimited",
         "Filter",
         "Telegram Bot",
         "compass bot",
