@@ -188,7 +188,7 @@ async def bot_status(client,message):
         used = humanbytes(u)
         free = humanbytes(f)
 
-        disk = "\n**💽 Disk Details**\n\n" \
+        disk = "\n**💽 Disk Details**\n" \
             f"➜ **Used  :**  {used}\n" \
             f"➜ **Total :**  {total}\n"\
             f"➜ **Free  :**  {free}\n"
