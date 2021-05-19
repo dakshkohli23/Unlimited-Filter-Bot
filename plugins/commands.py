@@ -28,7 +28,7 @@ async def showid(client, message):
     if chat_type == "private":
         user_id = message.chat.id
         await message.reply_text(
-            f"Your ID : `{user_id}`",
+            f"<b>🃏 Your ID : `{user_id}`</b>",
             parse_mode="md",
             quote=True
         )
@@ -40,7 +40,7 @@ async def showid(client, message):
         else:
             reply_id = ""
         await message.reply_text(
-            f"Your ID : `{user_id}`\nThis Group ID : `{chat_id}`\n\n{reply_id}",
+            f"<b>🃏 Your ID : `{user_id}`\n 🎴 This Group ID : `{chat_id}`\n\n{reply_id}</b>",
             parse_mode="md",
             quote=True
         )   
@@ -100,11 +100,11 @@ async def showinfo(client, message):
         user_name = "none"
 
     await message.reply_text(
-        f"<b>Name</b> : {name}\n\n"
-        f"<b>User ID</b> : <code>{id}</code>\n\n"
-        f"<b>Username</b> : {user_name}\n\n"
-        f"<b>Permanant USER link</b> : <a href='tg://user?id={id}'>Click here!</a>\n\n"
-        f"<b>DC ID</b> : {dcid}\n\n",
+        f"<b>Name : {name}</b>"
+        f"<b>User ID : <code>{id}</code></b>"
+        f"<b>Username : {user_name}</b>"
+        f"<b>Permanant USER link : <a href='tg://user?id={id}'>Click here!</a></b>"
+        f"<b>DC ID : {dcid}</b>",
         quote=True,
         parse_mode="html"
     )
@@ -161,7 +161,6 @@ async def bot_status(client,message):
                 leftperc = math.floor(quota_left / total_quota * 100)
 
                 quota_details = f"""
-
 **Heroku Account Status**
 
 > __You have **{total} hours** of free dyno quota available each month.__
@@ -172,8 +171,6 @@ async def bot_status(client,message):
 > __Dyno hours remaining this month__ ;
         - **{hours} hours**  ( {leftperc}% )
         - **Approximately {days} days!**
-
-
 """
             else:
                 quota_details = ""
