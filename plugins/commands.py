@@ -119,7 +119,7 @@ async def bot_status(client,message):
 
     if Config.SAVE_USER == "yes":
         users = await all_users()
-        userstats = f"**➜ {users} users have connect with your bot!**\n"
+        userstats = f"**➜ {users} users** have connect with your bot!\n"
     else:
         userstats = ""
 
@@ -162,15 +162,15 @@ async def bot_status(client,message):
 
                 quota_details = f"""
 **🗄️ Heroku Account Status**
-➜ Free Dyno Quota/Month
-   **⌛ {total} hours
+**➜ Free Dyno Quota/Month**
+   ⌛ {total} hours
 
-➜ Dyno used this month
-   **⌛ {used} hours - ( {usedperc}% )
+**➜ Dyno used this month**
+   ⌛ {used} hours - ( {usedperc}% )
 
-➜ Dyno remain this month
-   **⌛ {used} hours - ( {leftperc}% )
-   **🗓️ Approx {days} days!
+**➜ Dyno remain this month**
+   ⌛ {hours} hours - ( {leftperc}% )
+   🗓️ Approx {days} days!
 """
             else:
                 quota_details = ""
