@@ -10,54 +10,45 @@ See <i>/help</i> for commands and more details.</b>
 
 
     HELP_MSG = """
-<i>Add Me as Admin in your Group and start Filtering :)</i>
+🚨 Oh! You Need Help!
+<b> Add me 🐝 as Admin in your Group & Start Filtering!
+
+<b><u>Basic Commands</u></b>
+➠ /start - Check if I'm alive! 🟢
+➠ /help - Here You're!
+➠ /about - To Know About Me!
 
 
-<b>Basic Commands;</b>
+<b><u>Filter Commands</u></b>
+➠ /add name reply - Add filter for name.
+➠ /del name - Delete filter.
+➠ /delall - Delete entire filter database (☢️ Group Admin Only!)
+➠ /viewfilters - List of all filters in chat.
 
-/start - Check if I'm alive!
-/help - Command help
-/about - Something about me!
+<b><u>Connection Commands</u></b>
+➠ /connect groupid - Connect your group to my PM. You can also simply use;
+➠ /connect in groups.
+➠ /connections - Manage your connections.
 
+<b><u>Extras</u></b>
 
-<b>Filter Commands;</b>
-
-<code>/add name reply</code>  -  Add filter for name
-
-<code>/del name</code>  -  Delete filter
-
-<code>/delall</code>  -  Delete entire filters (Group Owner Only!)
-
-<code>/viewfilters</code>  -  List all filters in chat
-
-
-<b>Connection Commands;</b>
-
-<code>/connect groupid</code>  -  Connect your group to my PM. You can also simply use,
-<code>/connect</code> in groups.
-
-<code>/connections</code>  -  Manage your connections.
+➠ /status - Show Current Status of your Bot (🐝 Auth User Only!)
+➠ /id - Show ID information.
+➠ /info userid - Show User Information. Use '/info' as reply to some message for their details!
 
 
-<b>Extras;</b>
-
-/status  -  Shows current status of your bot (Auth User Only)
-
-/id  -  Shows ID information
-
-<code>/info userid</code>  -  Shows User Information. Use <code>/info</code> as reply to some message for their details!
-
-
-<b>© @Dlaize</b>
+<b>Made with Thunder ⚡ by ➜ <a href="https://telegram.dog/dlaize">Mr. Dlaize</a></b>
 """
 
 
-    ABOUT_MSG = """⭕️<b>My Name : Unlimited Filter Bot</b>
+    ABOUT_MSG = """
+<b><u>About Me:</u></b>
+🏷️ Bot : Bee Unlimited Filter Bot
+🏷️ Creator : <a href="https://telegram.dog/dlaize"><b>Mr. Dlaize</b></a>
+🏷️ Language : <a href='https://python.org/'>Python3</a>
+🏷️ Library : <a href='https://docs.pyrogram.org/'>Pyrogram 1.2.0</a> 
+🏷️ Server : <a href='https://www.heroku.com/'>Heroku</a>
+🏷️ Channel : <a href="https://telegram.dog/compass_botz"><b>Compass Bot</b></a>
 
-⭕️<b>Creater :</b> @Dlaize    
-
-⭕️<b>Language :</b> <code>Python3</code>
-
-⭕️<b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a> 
-
+📱 Suggestion & Feedback ➜ <a href="https://telegram.dog/dlaize"><b>Mr. Dlaize</b></a>
 """
