@@ -100,11 +100,11 @@ async def showinfo(client, message):
         user_name = "none"
 
     await message.reply_text(
-        f"<b>Name : {name}</b>"
-        f"<b>User ID : <code>{id}</code></b>"
-        f"<b>Username : {user_name}</b>"
-        f"<b>Permanant USER link : <a href='tg://user?id={id}'>Click here!</a></b>"
-        f"<b>DC ID : {dcid}</b>",
+        f"<b>➜ Name : {name}</b>\n"
+        f"<b>➜ User ID : <code>{id}</code></b>\n"
+        f"<b>➜ Username : {user_name}</b>\n"
+        f"<b>➜ Permanant USER link : <a href='tg://user?id={id}'>Click here!</a></b>\n"
+        f"<b>➜ DC ID : {dcid}</b>\n",
         quote=True,
         parse_mode="html"
     )
@@ -119,7 +119,7 @@ async def bot_status(client,message):
 
     if Config.SAVE_USER == "yes":
         users = await all_users()
-        userstats = f"> __**{users} users have interacted with your bot!**__\n\n"
+        userstats = f"**➜ {users} users have connect with your bot!**\n"
     else:
         userstats = ""
 
@@ -161,16 +161,16 @@ async def bot_status(client,message):
                 leftperc = math.floor(quota_left / total_quota * 100)
 
                 quota_details = f"""
-**Heroku Account Status**
+**🗄️ Heroku Account Status**
+➜ Free Dyno Quota/Month
+   **⌛ {total} hours
 
-> __You have **{total} hours** of free dyno quota available each month.__
+➜ Dyno used this month
+   **⌛ {used} hours - ( {usedperc}% )
 
-> __Dyno hours used this month__ ;
-        - **{used} hours**  ( {usedperc}% )
-
-> __Dyno hours remaining this month__ ;
-        - **{hours} hours**  ( {leftperc}% )
-        - **Approximately {days} days!**
+➜ Dyno remain this month
+   **⌛ {used} hours - ( {leftperc}% )
+   **🗓️ Approx {days} days!
 """
             else:
                 quota_details = ""
@@ -188,17 +188,18 @@ async def bot_status(client,message):
         used = humanbytes(u)
         free = humanbytes(f)
 
-        disk = "\n**Disk Details**\n\n" \
-            f"> USED  :  {used} / {total}\n" \
-            f"> FREE  :  {free}\n\n"
+        disk = "\n**💽 Disk Details**\n\n" \
+            f"➜ **Used  :**  {used}\n" \
+            f"➜ **Total :**  {total}\n"\
+            f"➜ **Free  :**  {free}\n"
     except:
         disk = ""
 
     await message.reply_text(
-        "**Current status of your bot!**\n\n"
-        f"> __**{filters}** filters across **{chats}** chats__\n\n"
+        "**🤖 Current Bot Status!**\n"
+        f"**➜ {filters}** filters across **{chats}** chats\n"
         f"{userstats}"
-        f"> __BOT Uptime__ : **{uptime}**\n\n"
+        f"**➜ Bot uptime :** {uptime}\n"
         f"{quota_details}"
         f"{disk}",
         quote=True,
