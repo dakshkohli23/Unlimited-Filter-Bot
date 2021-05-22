@@ -6,17 +6,13 @@
   <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-867ae9.svg?style=flat-square&logo=python&logoColor=867ae9&color=867ae9" /> </a>
   <a href="https://github.com/dakshkohli23/Sharingan-Rename-Bot/" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-Yes-green.svg?style=flat-square&logo=serverless&logoColor=867ae9&color=867ae9" /> </a>
 </p>
-
 <p align="center">
-  <a href="https://github.com/TroJanzHEX/Unlimited-Filter-Bot/stargazers">
-    <img src="https://img.shields.io/github/stars/dakshkohli23/Unlimited-Filter-Bot?style=social&style=flat&logo=github">
-
-  </a>
-  
-  <a href="https://github.com/TroJanzHEX/Unlimited-Filter-Bot/fork">
-    <img src="https://img.shields.io/github/forks/dakshkohli23/Unlimited-Filter-Bot?label=Fork&style=social&style=flat">
-
-  </a>  
+    <a href="https://github.com/dakshkohli23/Unlimited-Filter-Bot"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=867ae9&logo=codacy&logoColor=867ae9&style=for-the-badge" alt="Codacy" /></a>
+    <a href="https://github.com/dakshkohli23/Unlimited-Filter-Bot"> <img src="https://img.shields.io/github/repo-size/dakshkohli23/Unlimited-Filter-Bot?color=867ae9&logo=github&logoColor=867ae9&style=for-the-badge" /></a>
+    <a href="https://github.com/dakshkohli23/Unlimited-Filter-Bot/commits"> <img src="https://img.shields.io/github/last-commit/dakshkohli23/Unlimited-Filter-Bot?color=867ae9&logo=github&logoColor=867ae9&style=for-the-badge" /></a>
+    <a href="https://github.com/dakshkohli23/Unlimited-Filter-Bot/issues"> <img src="https://img.shields.io/github/issues/dakshkohli23/Unlimited-Filter-Bot?color=867ae9&logo=github&logoColor=867ae9&style=for-the-badge" /></a>
+    <a href="https://github.com/dakshkohli23/Unlimited-Filter-Bot/network/members"> <img src="https://img.shields.io/github/forks/dakshkohli23/Unlimited-Filter-Bot?color=867ae9&logo=github&logoColor=867ae9&style=for-the-badge" /></a>  
+    <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=867ae9&label=telethon&logo=python&logoColor=867ae9&style=for-the-badge" /></a>
 </p>
 
 [![Compass_botz](https://img.shields.io/badge/Compass-Bots-867ae9?style=flat&logo=telegram)](https://telegram.dog/compass_botz)  
