@@ -14,7 +14,7 @@
   </a>
   
   <a href="https://github.com/TroJanzHEX/Unlimited-Filter-Bot/fork">
-    <img src="https://img.shields.io/github/forks/dakshkohli23/Unlimited-Filter-Bot?label=Fork&style=social">
+    <img src="https://img.shields.io/github/forks/dakshkohli23/Unlimited-Filter-Bot?label=Fork&style=social&style=flat">
 
   </a>  
 </p>
